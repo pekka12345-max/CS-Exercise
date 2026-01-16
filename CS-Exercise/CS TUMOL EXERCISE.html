@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 id="head" onclick="changeBg()">Leonid Man</h1>
+    </header>
+    <article>
+        <img src="Cool Leonid guy.png" onclick="this.src='Me.png'" alt="Leonid Man">
+        <p> This Leonid is a very cool man</p>
+        <p id="par2">He is a very smug and arrogant man</p>
+    </article>
+<script>
+    function changeBg() {
+    document.getElementById("head").style.backgroundColor = "yellow";
+    document.getElementById("par2").style.backgroundColor = "yellow";
+    }
+</script>
+</body>
+</html>
